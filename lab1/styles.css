@@ -1,0 +1,63 @@
+/* Podstawowe style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nagłówek */
+header {
+    background-color: #9dff00;
+    color: #3d7dca;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#searchInput {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+}
+
+/* Sekcja listy Pokemonów */
+#pokemonList {
+    margin: 20px;
+}
+
+#pokemonItems {
+    list-style: none;
+    padding: 0;
+}
+
+#pokemonItems li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#pokemonItems li:hover {
+    transform: scale(1.05);
+}
+
+/* Sekcja szczegółów Pokemona */
+#pokemonDetails {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pokemonInfo {
+    font-size: 18px;
+}
